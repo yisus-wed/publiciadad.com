@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiar a una fuente más moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    overflow-x: hidden; /* Evitar el desbordamiento horizontal */
+}
+
+header {
+    background: linear-gradient(135deg, #2286abe6, #2286abe6); /* Degradado morado */
+    padding: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+h1 {
+    font-size: 2.5em;
+    animation: slideIn 1s; /* Animación de entrada */
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.background-image {
+    background-image: url(colorful-tile-mosaic-square-background-modern-abstract-gradient-card-business-geometric-poster-vector.jpg); /* Cambia la URL por la imagen que desees */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: #fff;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+}
+
+.content {
+    padding: 20px;
+    background-color: #2286abe6; /* Color morado marcado con opacidad */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.cta {
+    margin-top: 30px;
+    padding: 10px;
+    background: linear-gradient(135deg, #2286abe6, #2286abe6); /* Degradado morado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+}
+
+button {
+    background-color: #2286abe6; /* Color morado más claro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: #2286abe6; /* Color al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar padding */
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1); /* Fondo blanco semitransparente */
+    margin: 5px 0; /* Espaciado entre elementos */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background 0.3s; /* Transición suave */
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.2); /* Efecto al pasar el ratón */
+}
